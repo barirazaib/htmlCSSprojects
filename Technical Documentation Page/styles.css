@@ -1,0 +1,73 @@
+body {
+  font-family: "Times New Roman", Times, serif; 
+}
+nav {
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-right: 2px solid #ccc;
+  width: 220px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  top: 0;
+  left: 0;
+}
+
+.nav-link {
+  display: block;
+  margin: 5px 0;
+  text-decoration: none;
+  color: blue;
+  border-bottom: 1px solid #ccc; 
+  padding-bottom: 5px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+main {
+  margin-left: 240px;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+header {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  nav {
+    border-right: none;
+    border-bottom: 2px solid #ccc;
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    position: static;
+  }
+
+  .nav-link {
+    margin: 10px 0;
+    font-size: 1.2em;
+    border-bottom: none; 
+    padding-bottom: 0; 
+  }
+
+  main {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  header {
+    font-size: 1.2em;
+  }
+}
+
+code {
+  background-color: lightgray; 
+  padding: 1px;
+  border-radius: 4px; 
+}
